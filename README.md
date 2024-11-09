@@ -5,7 +5,8 @@ MemoryMaker is a simple implementation of a Retrieval-Augmented Generation (RAG)
 **Note:** This application is designed primarily for storing and retrieving saved information. While it includes a chat interface, it does not maintain chat history for context-aware conversations.
 
 
-![Uploading image.png…]()
+<img width="1428" alt="image" src="https://github.com/user-attachments/assets/baa937b1-653a-4063-917a-32532d0bced3">
+
 
 ---
 
