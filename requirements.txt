@@ -1,0 +1,7 @@
+Flask
+openai
+langfuse
+python-dotenv
+torch
+faiss-cpu
+numpy

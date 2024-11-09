@@ -1,0 +1,8 @@
+/.devcontainer
+/.env
+/.github
+/.vscode
+/__pycache__
+/app.log
+/debug.py
+/memories.db
