@@ -54,10 +54,10 @@ This project includes a .devcontainer.json configuration for a consistent develo
 	3.	Set Up Environment Variables
 Create a .env file in the project root directory and add the following:
 
-OPENAI_API_KEY=your_openai_api_key
-LANGFUSE_PUBLIC_KEY=your_langfuse_public_key
-LANGFUSE_SECRET_KEY=your_langfuse_secret_key
-LANGFUSE_HOST=your_langfuse_host
+OPENAI_API_KEY=your_openai_api_key  
+LANGFUSE_PUBLIC_KEY=your_langfuse_public_key  
+LANGFUSE_SECRET_KEY=your_langfuse_secret_key  
+LANGFUSE_HOST=your_langfuse_host  
 
 Replace your_openai_api_key, your_langfuse_public_key, your_langfuse_secret_key, and your_langfuse_host with your actual keys and host.
 Note: You need to obtain an API key from OpenAI and set up Langfuse credentials if you plan to use observability features.
