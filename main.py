@@ -262,11 +262,11 @@ def process_input(prompt):
     if similar_entries:
         logging.info("Gathering similar entries")
         combined_content = ' '.join(item['content'] for item in similar_entries)
-        system_prompt = f"{get_prompt('assistant')}<context>{combined_content}</context>"
+        system_prompt = f"{get_prompt('asistant')}<context>{combined_content}</context>"
         assistant_response = send_question_to_openai(system_prompt, prompt)
     else:
         # If no similar entries are found, proceed with the user's prompt
-        assistant_response = send_question_to_openai(get_prompt("assistant"), prompt)
+        assistant_response = send_question_to_openai(get_prompt("asistant"), prompt)
 
     return assistant_response, memory_added
 
